@@ -44,9 +44,10 @@ header {
     margin-top: 15px;
     margin-bottom: 15px;
     color: white;
-    
+
 }
-.header_links{
+
+.header_links {
     display: flex;
     column-gap: 40px;
 }
@@ -109,6 +110,8 @@ header {
 
 /* Section2 */
 .section2 {
+    width: 100%;
+    height: 533px;
     background-color: #FA793C;
     padding: 72px 82px;
     display: flex;
@@ -128,17 +131,21 @@ header {
 
 .article2conteiner {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    gap: 20px;
 }
 
 .section2article {
-    width: 32.5%;
+    width: calc(380 / 1440 * 100);
     background-color: #000000;
     padding: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .sec2imgbox {
-    width: calc(100% + 32px);
+    width: calc(380 / 1440 * 100);
     margin: -16px -16px 16px;
     overflow: hidden;
 }
@@ -149,12 +156,13 @@ header {
     transition: 0.5s linear;
 }
 
-.section2img:hover .section2article {
-    transform: scale(1.3);
+.section2img:hover {
+    transform: scale(1.5);
     filter: grayscale(100%);
 }
 
 .section2text {
+    width: calc(380 / 1440 * 100);
     background-color: black;
     margin-top: -4px;
 }
@@ -171,15 +179,14 @@ header {
 }
 
 .section2p {
-    width: 380px;
-    height: 48px;
+    width: calc(380 / 1440 * 100);
+    /* height: 48px; */
     font-family: Kanit;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
     text-align: left;
     color: #D9D9D9;
-    ;
     margin-top: 8px;
     margin-bottom: 16px;
     margin-left: 16px;
@@ -188,20 +195,25 @@ header {
 
 /* Section 3 */
 .section3 {
-    width: 100%;
-    height: 1320px;
-    padding: 72px 82px 72px 82px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 72px 82px;
+    background: #000000;
+}
+
+.booktour {
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #fa793c;
+    margin-bottom: 34px;
 }
 
 .section3articlebox {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     row-gap: 40px;
 }
 
@@ -217,18 +229,20 @@ header {
 
 .sec3imgbox {
     width: calc(380 / 1440 * 100);
-    /* width: 380px; */
     height: 224px;
     top: 16px;
-    left: 16px;
+    /* left: 16px; */
     gap: 0px;
     border-radius: 8px 8px 0px 0px;
     opacity: 0px;
-    margin-left: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     overflow: hidden;
 }
 
 .section3img {
+    width: 100%;
+    height: 224px;
     object-fit: cover;
     transition: 0.3s linear;
 }
@@ -238,46 +252,44 @@ header {
     filter: grayscale(100%);
 }
 
+.section3text {
+    padding: 16px 16px;
+}
+
 .section3title {
-    width: 83px;
-    height: 19px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
-    text-align: left;
-    color: #FA793C;
-    margin-left: 16px;
-    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #fa793c;
 
 }
 
 .priceandaddtocard {
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
 }
 
 .price {
-    width: 82px;
-    height: 32px;
-    top: 8px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    text-align: left;
-    color: #B53B1B;
-    padding-left: 16px;
+    color: #b53b1b;
 }
 
 .buttona {
-    padding-right: 16px;
+
+    font-size: 35px;
+    left: 340px;
+
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    color: #fa793c;
 }
+
 
 /* footer */
 footer {

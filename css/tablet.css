@@ -16,7 +16,7 @@
     .profile , .user_icon{
         display: block;
     }
-    /* section 1 */
+    /* section cover */
 
     .section_cover {
         padding: 0 38px;
@@ -47,10 +47,10 @@
     }
 
     .section3article {
-        width: 100%;
+        width: 48%;
     }
 
-    .sec3art5, .sec3art2 {
+    .sec3art5, .sec3art2, .sec3art4  {
         display: none;
     }
 }

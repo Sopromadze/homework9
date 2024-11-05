@@ -1,59 +1,37 @@
-@media (max-width: 376px) {
-
+@media  (max-width: 376px){
     /* header */
-
-    header {
-        padding: 9px 14px;
+    Header {
+        padding: 6px 14px;
     }
-
-    /* section 1 */
-
-    .section_cover {
-        padding: 0 14px;
-    }
-
-    /* section 2 */
-
-    .section2 {
+    /* section2 */
+    .section2{
         padding: 32px 14px;
+        height: 764px;
     }
 
-    .discovery {
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    .article2conteiner {
+    .article2conteiner{
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
-        /* flex-wrap: wrap; */
     }
-
-    .section2article {
-        width: 90%;
+    .section2article{
+        width: 100%;
     }
-
-    .section2h3 {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .section2p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    /* section 3 */
-    
-    .section3 {
+    /* section3 */
+    .section3{
         padding: 32px 14px;
     }
-
-    .booktour {
-        font-size: 24px;
+    .booktour{
+        font: 24px;
         line-height: 36px;
     }
-    .sec3art6{
-        display: none;
+    .section3article {
+        width: 100%;
     }
-    
+
+
+
+
+
+
+
 }
