@@ -1,0 +1,56 @@
+@media (max-width: 711px) {
+
+    /* header */
+
+    header {
+        padding: 9px 38px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
+    .profile , .user_icon{
+        display: block;
+    }
+    /* section 1 */
+
+    .section_cover {
+        padding: 0 38px;
+    }
+
+    .cover_title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .coverparagraph {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    /* section 2 */
+
+    .section2 {
+        padding: 40px 38px;
+    }
+
+    /* section 3 */
+    
+    .section3 {
+        padding: 40px 38px;
+    }
+
+    .section3article {
+        width: 100%;
+    }
+
+    .sec3art5, .sec3art2 {
+        display: none;
+    }
+}
